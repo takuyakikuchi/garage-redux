@@ -25,7 +25,6 @@ class CarsShow extends Component {
       </Aside>,
       <div className="car-container" key="car">
         <div className="car-card">
-          {/* <img className="car-picture" src="/assets/images/logo_square.svg" /> */}
           <div className="car-details">
             <span>{car.brand} - {car.model}</span>
             <ul>
@@ -34,7 +33,6 @@ class CarsShow extends Component {
             <span className="plate">{car.plate}</span>
           </div>
           <button className="delete" onClick={this.handleClick}>
-            {/* <i className="fa fa-trash-o" aria-hidden="true"></i> */}
             Delete
           </button>
         </div>

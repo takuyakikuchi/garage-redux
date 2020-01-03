@@ -18,7 +18,7 @@ class CarsNew extends Component {
       <Aside key="aside" garage={this.props.garage}>
         <Link to="/">Back to list</Link>
       </Aside>,
-      <div key="add" className="form-container" style={{ backgroundImage: "url('/assets/images/form.jpg')" }}>
+      <div key="add" className="form-container">
         <div className="overlay">a</div>
         <form onSubmit={this.props.handleSubmit(this.onSubmit)}>
           <div className="form-group">
